@@ -92,6 +92,7 @@ void usage()
 
 int main(int argc, const char **argv) 
 {
+	//osd开始位置
   vector<const char*> args;
   argv_to_vec(argc, argv, args);
   env_to_vec(args);
